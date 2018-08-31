@@ -1,0 +1,176 @@
+.list {
+  width: 100%;
+}
+
+.list li {
+  width: 100%;
+  line-height: 1.9;
+  padding: 0 20px;
+}
+
+.list-separated-ching li:nth-child(2n) {
+  background: #c2edef;
+}
+
+.list-separated-ching li:nth-child(2n-1) {
+  background: white;
+}
+
+.list-border-radius li:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.list-border-radius li:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+a[class~='disabled'], button[class~='disabled'], input[class~='disabled'] {
+  background: #ccc;
+  color: white;
+  cursor: not-allowed;
+}
+
+a[class~='disabled']:hover, button[class~='disabled']:hover, input[class~='disabled']:hover {
+  color: white;
+  background: #ccc;
+}
+
+.btn {
+  padding: 0 20px;
+  line-height: 1.8;
+  border-radius: 5px;
+  display: inline-block;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: -3px 0 5px rgba(0, 0, 0, 0.2) inset, 3px 0 5px rgba(0, 0, 0, 0.2) inset, 0 4px 8px rgba(0, 0, 0, 0.2) inset;
+}
+
+.btn-default {
+  border: 1px solid #c9c9c9;
+}
+
+.btn-default:hover {
+  border: 1px solid #34c5ca;
+}
+
+.btn-ching {
+  color: white;
+  background: rgba(52, 197, 202, 0.7);
+}
+
+.btn-ching:hover {
+  background: #34c5ca;
+}
+
+.btn-dark-ching {
+  color: white;
+  background: rgba(0, 147, 152, 0.7);
+}
+
+.btn-dark-ching:hover {
+  background: #009398;
+}
+
+.btn-orange {
+  color: white;
+  background: rgba(254, 138, 35, 0.7);
+}
+
+.btn-orange:hover {
+  background: #fe8a23;
+}
+
+.btn.btn-large {
+  padding: 0 40px;
+  line-height: 2.5;
+}
+
+.table {
+  display: table;
+  table-layout: fixed;
+  word-break: break-word;
+}
+
+.table td, .table th {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.table thead tr {
+  box-shadow: 0 3px 3px #b8b8b8;
+}
+
+.table tbody tr:hover td {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.table.table-response {
+  table-layout: auto;
+  word-break: break-word;
+}
+
+.table.table-border {
+  border: 1px solid #dddddd;
+}
+
+.table.table-border td {
+  border: 1px solid #dddddd;
+}
+
+.table.table-border tbody tr:hover td {
+  border: 1px solid transparent !important;
+}
+
+.table.table-separated-default tbody tr:nth-child(2n) {
+  background: #f8f8f8;
+}
+
+.mask-layer {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin: auto auto;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal {
+  width: 700px;
+  border-radius: 5px;
+  background: white;
+}
+
+.modal .modal-header {
+  background: #009398;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 2.5;
+  padding: 0 20px;
+  color: white;
+  border-radius: 5px 5px 0 0;
+}
+
+.modal .modal-header img {
+  width: 40px;
+  height: 40px;
+}
+
+.modal .modal-body {
+  padding: 16px 60px 0 60px;
+}
+
+.modal .modal-footer {
+  padding: 40px 60px;
+}
+
+.modal .modal-footer .btn {
+  margin-right: 40px;
+}
+
+.modal .modal-footer .btn:last-child {
+  margin-right: 0px;
+}
